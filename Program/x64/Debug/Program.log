@@ -1,3 +1,3 @@
 ﻿  Source.c
-C:\Users\Administrator\Desktop\Program\Source.c(7,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Administrator\Desktop\Program\Source.c(10,9): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\C_lecture\Program\Source.c(11,10): warning C4101: 'grade' :참조되지 않은 지역 변수입니다.
+  Program.vcxproj -> C:\Users\Administrator\Desktop\C_lecture\Program\x64\Debug\Program.exe
