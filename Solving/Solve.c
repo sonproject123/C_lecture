@@ -1,26 +1,19 @@
 #include <stdio.h>
 
 int main() {
-    char N[31];
-    int B, size, i, num = 1, sum = 0;
+    int T, C, i;
+    scanf("%d", &T);
 
-    scanf("%s %d", N, &B);
-
-    for (i = 0; i < 30; i++) {
-        if (N[i + 1] == '\0') {
-            size = i;
-            break;
-        }
+    for (i = 0; i < T; i++) {
+        scanf("%d", &C);
+        printf("%d ", C / 25);
+        C %= 25;
+        printf("%d ", C / 10);
+        C %= 10;
+        printf("%d ", C / 5);
+        C %= 5;
+        printf("%d\n", C);
     }
-
-    for (i = size; i >= 0; i--) {
-        if (N[i] >= '0' || N[i] <= '9') {
-
-        }
-    }
-
-
-
 
     return 0;
 }
