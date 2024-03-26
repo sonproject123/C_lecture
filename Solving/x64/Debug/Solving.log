@@ -1,3 +1,2 @@
 ﻿  Solve.c
-C:\Users\Administrator\Desktop\C_lecture\Solving\Solve.c(10,17): warning C4477: 'scanf_s' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
   Solving.vcxproj -> C:\Users\Administrator\Desktop\C_lecture\Program\x64\Debug\Solving.exe
